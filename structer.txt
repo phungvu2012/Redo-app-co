@@ -1,0 +1,112 @@
+1. Layout
+
+body 
+  header
+		div.top-nav
+	banner
+		section.advertise
+		div.hero
+	main
+		section.promo
+		section.about-us
+		section.best-feature
+		div.overview
+		section.pricing-package
+		section.review-client
+		section.screenshots
+		section.help
+		section.blog
+		section.member
+		section.contact
+		section.lovely-contact
+	footer
+		div.subcribe
+		section.app-footer
+		section.copy-right
+
+2. 
+
+div.top-bar
+	div.container
+		img.top-bar__logo
+		nav.top-bar__right
+			ul.top-bar__links > li*9 > a
+
+section.advertise
+	div.container
+		div.row
+			div.col
+				div.advertise__priority
+					span
+					h1
+					p.lead
+					btn
+
+section.hero
+	div.container
+		div.row
+			div.col*4
+				p.big_number
+				h6
+
+section.promo
+	div.row
+		h4.sub-title
+		h2
+
+		div.row 
+			div.col-sm-2 * 4
+				i
+				h3
+				p
+
+section.about-us
+	div.row	
+		div.col
+			div.section-heading
+				h4.sub-title
+				h2
+				p.text-muted
+				ul
+					 li * 5
+					 	i
+						span
+		div.col
+			img
+
+section.features
+	div.container
+		div.row
+			div.col
+				div.heading-content
+					h4.sub-title
+					h2
+					p.text-muted
+
+div.overview
+	button
+		i
+	h3
+	button
+	button
+
+section.pricing
+	div.container
+		div.row
+			h4.sub-title.color-sencondary
+			h2
+			p.text-muted
+		div.row
+			div.col * 3
+				div.card
+					div.card-header
+					div.card-body
+
+section.review-client
+	
+section.screenshots
+section.help
+section.blog
+section.member
+section.contact
+section.lovely-contact

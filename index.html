@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Reset CSS  -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="./assets/img/Screenshot 2021-07-22 164719.png" type="image/x-icon">
+
+    <!-- Style CSS  -->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <title>App co</title>
+</head>
+<body>
+    <!-- Begin: Header  -->
+    <header class="bg-gradient-purple">
+        <nav class="navbar navbar-expand-lg bg-transparent bg-midnightblue-lg fixed-top" id="main-nav">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="./assets/img/logo-white-1x.png" alt="appco" width="120px" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0 main-menu" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" id="dropdown-home" data-bs-toggle="dropdown">Home</a>
+                            <ul class="dropdown-menu main-menu__dropdown" aria-labelledby="dropdown-home">
+                                <li><a href="#" class="dropdown-item">Demo Template 1</a></li>
+                                <li><a href="#" class="dropdown-item">Demo Template 2</a></li>
+                                <li><a href="#" class="dropdown-item">Demo Template 3</a></li>
+                                <li><a href="#" class="dropdown-item">Demo Template 4</a></li>
+                                <li><a href="#" class="dropdown-item">Demo Template 5</a></li>
+                                <li><a href="#" class="dropdown-item">Demo Template 6</a></li>
+                                <li>
+                                    <a href="#" class="dropdown-item">
+                                        Demo Template 7
+                                        <span class="badge rounded-pill bg-warning">New</span>
+                                    </a>
+                                </li>
+                                <li><a href="#" class="dropdown-item">Demo Template 8</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                        <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+                        <li class="nav-item"><a href="#screenshots" class="nav-link">Screenshots</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="dropdown-page" role="button" data-bs-toggle="dropdown" aria-expanded="false">Page</a>
+                            <ul class="dropdown-menu main-menu__dropdown">
+                                <li><a href="#" class="dropdown-item">Login Page</a></li>
+                                <li><a href="#" class="dropdown-item">Login Page</a></li>
+                                <li><a href="#" class="dropdown-item">Signup Page 1</a></li>
+                                <li><a href="#" class="dropdown-item">Signup Page 2</a></li>
+                                <li><a href="#" class="dropdown-item">Password Reset</a></li>
+                                <li><a href="#" class="dropdown-item">Change Password</a></li>
+                                <li><a href="#" class="dropdown-item">Download</a></li>
+                                <li><a href="#" class="dropdown-item">Review</a></li>
+                                <li><a href="#" class="dropdown-item">Comming Soon</a></li>
+                                <li><a href="#" class="dropdown-item">Thank you</a></li>
+                                <li>
+                                    <a href="#" class="dropdown-item">
+                                        Team Page
+                                    <span class="badge rounded-pill bg-danger">New</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">
+                                        Team Single
+                                        <span class="badge rounded-pill bg-danger">New</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle  position-relative" id="dropdown-blog" data-bs-toggle="dropdown">
+                                Blog
+                                <span class="badge position-absolute bottom-100 end-0 rounded-pill bg-danger">New</span>
+                            </a>
+
+                            <ul class="dropdown-menu main-menu__dropdown">
+                                <li><a href="#" class="dropdown-item">Blog Gird</a></li>
+                                <li><a href="#" class="dropdown-item">Blog Left SideBar</a></li>
+                                <li><a href="#" class="dropdown-item">Details Right SideBar</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header  -->
+
+    <!-- Begin: Hero  -->
+    <section class="hero blur-gradient">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6 col-lg-7 mb-3 mb-0-md">
+                    <div class="hero__priority">
+                        <span class="text-uppercase h6">CUSTOMER FIRST PRIORITY</span>
+                        <h1 class="text-white">We Deliver Your Product More Faster</h1>
+                        <p class="lead">Quickly morph client-centric results through performance based applications. Proactively facilitate professional human capital for cutting-edge.</p>
+                        <button class="btn btn-ouline btn--white">Download Now</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <img src="./assets/img/image-14.png" alt="smartphone demo" class="img-fluid position-relative">
+                </div>
+            </div>
+            <div class="row hero__counter">
+                <ul class="list-group list-group-horizontal-sm row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 flex-wrap">
+                    <li class="list-group-item">
+                        <div class="hero__counter-single">
+                            <span>2350</span>
+                            <p>Happy Client</p>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="hero__counter-single">
+                            <span>2150</span>
+                            <p>App Download</p>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="hero__counter-single">
+                            <span>2350</span>
+                            <p>Total Rates</p>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="hero__counter-single">
+                            <span>2250</span>
+                            <p>Awards win</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- End: Hero  -->
+
+    <main class="main-site">
+        <!-- Begin: Promo  -->
+        <section class="promo main-site__item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-lg-6 mb-5">
+                        <div class="section-content">
+                            <h4 class="sub-title color-secondary">KEY FEATURES</h4>
+                            <h2>We Will Helps you to Build Beautiful Websites</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="single-promo-card">
+                            <i class="single-promo-card__icon color-secondary far fa-credit-card"></i>
+                            <div class="single-promo-card__body">
+                                <h5>Modular</h5>
+                                <p class="text-muted">All components are built to be used in any combination.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="single-promo-card">
+                            <i class="single-promo-card__icon color-secondary far fa-circle"></i>
+                            <div class="single-promo-card__body">
+                                <h5>Modular</h5>
+                                <p class="text-muted">All components are built to be used in any combination.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="single-promo-card">
+                            <i class="single-promo-card__icon color-secondary  fas fa-bezier-curve"></i>
+                            <div class="single-promo-card__body">
+                                <h5>Modular</h5>
+                                <p class="text-muted">All components are built to be used in any combination.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="single-promo-card">
+                            <i class="single-promo-card__icon color-secondary fas fa-receipt"></i>
+                            <div class="single-promo-card__body">
+                                <h5>Modular</h5>
+                                <p class="text-muted">All components are built to be used in any combination.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: Promo  -->
+
+        <!-- Begin: About  -->
+        <section class="about-us main-site__item" id="about">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-5 col-md-6 mb-0-md mb-3">
+                        <div class="section-content">
+                            <h4 class="sub-title">ABOUT OUR APP</h4>
+                            <h2>Deliver your Product Using AppCo</h2>
+                            <p class="text-muted">Quick has all the right tools in order to make your website building process a breeze and automatize your time-consuming tasks in your development workflow.</p>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <div class="row align-items-center">
+                                        <div class="col-auto">
+                                            <div class="list-unstyled__icon">
+                                                <i class="fas fa-check-square"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <p class="list-unstyled__content">Tones of SASS variables</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row align-items-center">
+                                        <div class="col-auto">
+                                            <div class="list-unstyled__icon">
+                                                <i class="fas fa-check-square"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <p class="list-unstyled__content">Create your own skin to match your brand</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row align-items-center">
+                                        <div class="col-auto">
+                                            <div class="list-unstyled__icon">
+                                                <i class="fas fa-check-square"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <p class="list-unstyled__content">Globally orchestrate tactical channels whereas bricks</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row align-items-center">
+                                        <div class="col-auto">
+                                            <div class="list-unstyled__icon">
+                                                <i class="fas fa-check-square"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <p class="list-unstyled__content">Use Gulp to prepare all assets for production</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row align-items-center">
+                                        <div class="col-auto">
+                                            <div class="list-unstyled__icon">
+                                                <i class="fas fa-check-square"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <p class="list-unstyled__content">Collaboratively predominate vertical manufactured</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./assets/img/delivery-app.svg" alt="delivery-app">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: Promo  -->
+
+        <!-- Begin: Features  -->
+        <section class="features main-site__item" id="features">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="section-content text-center">
+                            <h4 class="sub-title color-secondary">BEST FEATURES</h4>
+                            <h2>Easy Process with Best Features</h2>
+                            <p class="text-muted px-2">Objectively deliver professional value with diverse web-readiness. Collaboratively transition wireless customer service without goal-oriented catalysts for change. Collaboratively.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-4 order-2">
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="row py-3">
+                                    <div class="col-auto">
+                                        <div class="list-unstyled__icon feature__box-icon icon-color-1">
+                                            <i class="far fa-smile-wink fs-3-5"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="list-unstyled__content">
+                                            <h4>Responsive web design</h4>
+                                            <p>Modular and interchangable componente between layouts and even demos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row py-3">
+                                    <div class="col-auto">
+                                        <div class="list-unstyled__icon feature__box-icon icon-color-2">
+                                            <i class="fas fa-bezier-curve fs-3-5"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="list-unstyled__content">
+                                            <h4>Responsive web design</h4>
+                                            <p>Modular and interchangable componente between layouts and even demos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row py-3">
+                                    <div class="col-auto">
+                                        <div class="list-unstyled__icon feature__box-icon icon-color-3">
+                                            <i class="fas fa-headphones-alt fs-3-5"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="list-unstyled__content">
+                                            <h4>Responsive web design</h4>
+                                            <p>Modular and interchangable componente between layouts and even demos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 text-center order-5 order-lg-3">
+                        <img src="./assets/img/image-10.png" alt="demo smartphone feature" class="img-fluid">
+                    </div>
+                    <div class="col-lg-4 order-4">
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="row py-3">
+                                    <div class="col-auto">
+                                        <div class="list-unstyled__icon feature__box-icon icon-color-4">
+                                            <i class="fas fa-tachometer-alt fs-3-5"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="list-unstyled__content">
+                                            <h4>Responsive web design</h4>
+                                            <p>Modular and interchangable componente between layouts and even demos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row py-3">
+                                    <div class="col-auto">
+                                        <div class="list-unstyled__icon feature__box-icon icon-color-5">
+                                            <i class="fas fa-box-open fs-3-5"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="list-unstyled__content">
+                                            <h4>Responsive web design</h4>
+                                            <p>Modular and interchangable componente between layouts and even demos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row py-3">
+                                    <div class="col-auto">
+                                        <div class="list-unstyled__icon feature__box-icon icon-color-6">
+                                            <i class="fas fa-palette fs-3-5"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="list-unstyled__content">
+                                            <h4>Responsive web design</h4>
+                                            <p>Modular and interchangable componente between layouts and even demos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: Features  -->
+
+        <!-- Begin: Overview  -->
+        <section class="overview blur-gradient main-site__item" >
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="overview-content">
+                            <a href="#" class="overview-content__video-btn"><i class="fas fa-play"></i></a>
+                            <h5 class="text-white fs-3-5 mt-4 mb-5">Watch video overview</h5>
+                            <button class="btn btn-ouline btn--white"><i class="me-2 fab fa-google-play"></i>Google Play</button>
+                            <button class="btn btn-ouline btn--white"><i class="me-2 fab fa-apple"></i>App Store</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: Overview  -->
+
+        <!-- Begin: Pricing  -->
+        <section class="pricing main-site__item bg-shapre-right overflow-hidden" id="pricing">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="section-content text-center">
+                            <h4 class="sub-title color-secondary">OUR PRICING PACKAGE</h4>
+                            <h2>Affordable Pricing and Packages Choose your Best One</h2>
+                            <p class="text-muted">Distinctively brand cutting-edge imperatives through synergistic strategize orthogonal relationships whereas infrastructures customize low-risk high-yield processes rather than user friendly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-4 col-md mt-4">
+                        <div class="card card-pricing">
+                            <h5 class="card-header">Basic</h5>
+                            <div class="card-body">
+                                <img src="./assets/img/basic.svg" alt="basic pakage" class="card-pricing__img">
+                                <ul class="mt-4">
+                                    <li>5 Users access same time</li>
+                                    <li>Integrated eCommerce</li> 
+                                    <li>Customization interface</li> 
+                                    <li>Weekly updated</li>
+                                    <li>24/7 Phone Support</li> 
+                                    <li>Event Analytics</li>
+                                </ul>
+                                <p class="card-pricing__amount"><strong>29$</strong></p>
+                                <a class="btn btn-ouline btn--purple">Purchase now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md mt-4">
+                        <div class="card card-pricing">
+                            <h5 class="card-header">Standard</h5>
+                            <div class="card-body">
+                                <img src="./assets/img/basic.svg" alt="basic pakage" class="card-pricing__img">
+                                <ul class="mt-4">
+                                    <li>10 Users access same time</li>
+                                    <li>Integrated eCommerce</li> 
+                                    <li>Customization interface</li> 
+                                    <li>Weekly updated</li>
+                                    <li>24/7 Phone Support</li> 
+                                    <li>Event Analytics</li>
+                                </ul>
+                                <p class="card-pricing__amount"><strong>145$</strong></p>
+                                <a class="btn btn-ouline btn--purple">Purchase now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md mt-4">
+                        <div class="card card-pricing">
+                            <h5 class="card-header">Unlimited</h5>
+                            <div class="card-body">
+                                <img src="./assets/img/basic.svg" alt="basic pakage" class="card-pricing__img">
+                                <ul class="mt-4">
+                                    <li>20 Users access same time</li>
+                                    <li>Integrated eCommerce</li> 
+                                    <li>Customization interface</li> 
+                                    <li>Weekly updated</li>
+                                    <li>24/7 Phone Support</li> 
+                                    <li>Event Analytics</li>
+                                </ul>
+                                <p class="card-pricing__amount"><strong>249$</strong></p>
+                                <a class="btn btn-ouline btn--purple">Purchase now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="text-muted text-center">If you need custom services or Need more? <a href="#" class="color-secondary text-decoration-none">Contact us</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: Pricing  -->
+
+        <!-- Begin:Response Client -->
+        <section class="response-client">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-6 mb-5 mb-0-md">
+                        <div class="section-content">
+                            <h4 class="sub-title color-secondary">OUR TRUSTED CLIENTS</h4>
+                            <h2>What Clients Say About Us</h2>
+                            <p class="lead text-muted">Rapidiously morph transparent internal or "organic" sources whereas resource sucking e-business. Conveniently innovate compelling internal.</p>
+                            <ul class="list-inline">
+                                <li class="list-inline__item">
+                                    <img src="./assets/img/client-1-color.png" alt="airbnb" class="img-fluid list-inline__item-img wrap-img">
+                                </li>
+                                <li class="list-inline__item">
+                                    <img src="./assets/img/client-3-color.png" alt="paypal" class="img-fluid list-inline__item-img wrap-img">
+                                </li>
+                                <li class="list-inline__item">
+                                    <img src="./assets/img/client-6-color.png" alt="spotify" class="img-fluid list-inline__item-img wrap-img">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div id="carousel-review-client" class="carousel slide carousel-review" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="media">
+                                        <div class="media-header">
+                                            <div class="media-img">
+                                                <img src="./assets/img/client-1.jpg" alt="member" class="img-fluid">
+                                            </div>
+                                            <div class="media-info">
+                                                <h5 class="mb-0">John Charles</h5>
+                                                <p class="mb-0">Google</p>
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <p> <img src="./assets/img/quote.png" class="img-fluid"> Enthusiastically innovate B2C data without clicks-and-mortar convergence. Monotonectally deliver compelling testing procedures vis-a-vis B2B testing procedures. Competently evisculate integrated resources whereas global processes. Enthusiastically.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="media">
+                                        <div class="media-header">
+                                            <div class="media-img">
+                                                <img src="./assets/img/client-2.jpg" alt="member" class="img-fluid">
+                                            </div>
+                                            <div class="media-info">
+                                                <h5 class="mb-0">Arabella Ora</h5>
+                                                <p class="mb-0">Amazon</p>
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <p><img src="./assets/img/quote.png" class="img-fluid">Rapidiously develop user friendly growth strategies after extensive initiatives. Conveniently grow innovative benefits through fully tested deliverables. Rapidiously utilize focused platforms through end-to-end schemas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="media">
+                                        <div class="media-header">
+                                            <div class="media-img">
+                                                <img src="./assets/img/chibi.png" alt="member" class="img-fluid">
+                                            </div>
+                                            <div class="media-info">
+                                                <h5 class="mb-0">Jeremy Jere</h5>
+                                                <p class="mb-0">Themetags</p>
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <p> <img src="./assets/img/quote.png" class="img-fluid"> Objectively synthesize client-centered e-tailers for maintainable channels. Holisticly administrate customer directed vortals whereas tactical functionalities. Energistically monetize reliable imperatives through client-centric best practices. Collaboratively.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev carousel-review__button" type="button" data-bs-target="#carousel-review-client" data-bs-slide="prev">
+                                <i class="fas fa-angle-left" aria-hidden="true"></i>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next carousel-review__button" type="button" data-bs-target="#carousel-review-client" data-bs-slide="next">
+                                <i class="fas fa-angle-right" aria-hidden="true"></i>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End:Response Client -->
+
+        <!-- Begin: Screenshots  -->
+        <section class="screenshots" id="screenshots">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-8">
+                        <div class="content-section text-center">
+                            <h4 class="sub-title color-secondary">APP SCREENSHOTS</h4>
+                            <h2>App Screenshots Looks Awesome</h2>
+                            <p class="text-muted">Credibly synthesize multimedia based networks vis-a-vis re-engineer enterprise-wide imperatives whereas fully tested web-readiness. Continually leverage existing worldwide interfaces</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col position-relative">
+                        <div class="screen-phone-demo overflow-hidden">
+                            <div id="screen-app" class="carousel-container">
+                                <ul class="screen-app__list">
+                                    <li class="screen-app__item-disable">
+                                        <img src="./assets/img/05.png" alt="screen5" class="img-fluid screen-app__item-img">
+                                    </li>
+                                    <li class="screen-app__item"  id="clone-end">
+                                        <img src="./assets/img/06.png" alt="screen6" class="img-fluid screen-app__item-img">
+                                    </li>
+                                    <li class="screen-app__item">
+                                        <img src="./assets/img/01.png" alt="screen1" class="img-fluid screen-app__item-img">
+                                    </li>
+                                    <li class="screen-app__item">
+                                        <img src="./assets/img/02.png" alt="screen2" class="img-fluid screen-app__item-img">
+                                    </li>
+                                    <li class="screen-app__item">
+                                        <img src="./assets/img/03.png" alt="screen3" class="img-fluid screen-app__item-img">
+                                    </li>
+                                    <li class="screen-app__item">
+                                        <img src="./assets/img/04.png" alt="screen4" class="img-fluid screen-app__item-img">
+                                    </li>
+                                    <li class="screen-app__item">
+                                        <img src="./assets/img/05.png" alt="screen5" class="img-fluid screen-app__item-img">
+                                    </li>
+                                    <li class="screen-app__item">
+                                        <img src="./assets/img/06.png" alt="screen6" class="img-fluid screen-app__item-img">
+                                    </li>
+                                    <li class="screen-app__item" id="clone-start">
+                                        <img src="./assets/img/01.png" alt="screen1" class="img-fluid screen-app__item-img" >
+                                    </li>
+                                    <li class="screen-app__item-disable">
+                                        <img src="./assets/img/02.png" alt="screen2" class="img-fluid screen-app__item-img">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="screen-phone">
+                            <img src="./assets/img/phone-frame2.png" alt="phone">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: Screenshots  -->
+
+        <!-- Begin: Help  -->
+        <section class="help blur-gradient">
+            <div class="container">
+                <div class="row justify-content-lg-between">
+                    <div class="col-md-6">
+                        <div class="section-content">
+                            <div class="card help__card mb-4">
+                                <div class="card-header help__card-header">
+                                    <h6 class="m-0">
+                                        <i class="far fa-newspaper" style="width: 2rem"></i>
+                                        Which license do I need ?</h6> 
+                                    <a href="#collapse1" class="stretched-link" data-bs-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapse1"></a>
+                                </div>
+                                <div class="collapse" id="collapse1">
+                                    <div class="card-body">
+                                        <p class="card-text">Uniquely leverage other's distinctive infomediaries rather than leveraged supply chains. Continually seize distributed collaboration and idea-sharing whereas user.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card help__card mb-4">
+                                <div class="card-header help__card-header">
+                                    <h6 class="m-0"> 
+                                        <i class="far fa-images" style="width: 2rem"></i>
+                                        How do I get access to a theme?
+                                    </h6> 
+                                    <a href="#collapse2" class="stretched-link" data-bs-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapse2"></a>
+                                </div>
+                                <div class="collapse" id="collapse2">
+                                    <div class="card-body">
+                                        <p class="card-text">Rapidiously incentivize virtual e-commerce and exceptional e-tailers. Progressively network focused catalysts for change without orthogonal benefits. Dramatically empower.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card help__card mb-4">
+                                <div class="card-header help__card-header">
+                                    <h6 class="m-0"> 
+                                        <i class="fas fa-archive" style="width: 2rem"></i>
+                                        How do I see previous orders?
+                                    </h6> 
+                                    <a href="#collapse3" class="stretched-link" data-bs-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapse3"></a>
+                                </div>
+                                <div class="collapse" id="collapse3">
+                                    <div class="card-body">
+                                        <p class="card-text">Proactively monetize long-term high-impact innovation and scalable relationships. Dynamically mesh principle-centered functionalities before next-generation best practices. Distinctively empower.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 position-relative">  
+                        <img src="./assets/img/image-13.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: Help  -->
+
+        <!-- Begin: Member  -->
+        <section class="member main-site__item" id="team">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="content-section text-center">
+                            <h4 class="sub-title color-secondary">LOVELY TEAM</h4>
+                            <h2>Our Team Members</h2>
+                            <p>Following reasons show advantages of adding AppCo to your lead pages, foster market positioning products without demos and checkouts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="member__list">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="member__item">
+                                        <div class="member__item-info">
+                                            <h5 class="text-white">Edna Mason</h5>
+                                            <p>Senior Designer</p> 
+                                            <div class="member__item-link">
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-pinterest-p"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <img src="./assets/img/team-4.jpg" alt="member1" class="img-fluid rounded-1">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="member__item">
+                                        <div class="member__item-info">
+                                            <h5 class="text-white">Edna Mason</h5>
+                                            <p>Senior Designer</p> 
+                                            <div class="member__item-link">
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-pinterest-p"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <img src="./assets/img/team-2.jpg" alt="member2" class="img-fluid rounded-1">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="member__item">
+                                        <div class="member__item-info">
+                                            <h5 class="text-white">Edna Mason</h5>
+                                            <p>Senior Designer</p> 
+                                            <div class="member__item-link">
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-pinterest-p"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <img src="./assets/img/team-3.jpg" alt="member3" class="img-fluid rounded-1">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="member__item">
+                                        <div class="member__item-info">
+                                            <h5 class="text-white">Edna Mason</h5>
+                                            <p>Senior Designer</p> 
+                                            <div class="member__item-link">
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                                <a href="#" class="px-3">
+                                                    <i class="fab fa-pinterest-p"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <img src="./assets/img/team-1.jpg" alt="member4" class="img-fluid rounded-1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: Member  -->
+    </main>
+    <footer class="footer-site">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="section-content">
+                        <img src="./assets/img/logo-white-1x.png" alt="logo" class="pb-4" width="120px">
+                        <p>Holisticly empower premium architectures without value-added ideas. Seamlessly evolve cross-platform experiences.</p>
+                        <div class="d-flex">
+                            <a href="#" class="px-3">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="px-3">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="px-3">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="px-3">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="footer__info">
+                                <h5 class="text-white">Resources</h5> 
+                                <a href="#">Help</a> 
+                                <a href="#">Events</a> 
+                                <a href="#">Live Support</a> 
+                                <a href="#">Open Sources</a> 
+                                <a href="#">Documentation</a> 
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="footer__info">
+                                <h5 class="text-white">Company</h5> 
+                                <a href="#">About Us</a> 
+                                <a href="#">Careers</a> 
+                                <a href="#">Customers</a> 
+                                <a href="#">Community</a> 
+                                <a href="#">Our Team</a> 
+                            </div>                                                    
+                        </div>
+                        <div class="col-sm-4">
+                            <address class="footer__info">
+                                <h5 class="text-white">Location</h5> 
+                                <a href="#"><i class="fas fa-map-marker-alt me-2"></i>121 King Melbourne Australia 3000 </a>
+                                <a href="tel:+61 2 8376 6284"><i class="fas fa-mobile-alt me-2"></i>+61 2 8376 6284</a> 
+                                <a href="mailto:mail@example.com"><i class="far fa-envelope me-2"></i>mail@example.com</a> 
+                                <a href="www.yourdomain.com"><i class="fas fa-globe-europe me-2"></i>www.yourdomain.com</a> 
+                            </address>                                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto">
+                        <p>© ThemeTags Design Agency, All rights reserved</p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="footer__links">
+                            <a href="#">Terms </a> 
+                            <a href="#">Security </a> 
+                            <a href="#">Privacy </a> 
+                            <a href="#">Policy</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./assets/js/nav.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

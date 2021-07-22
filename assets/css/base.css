@@ -1,0 +1,111 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 93.75%;
+    line-height: 1.75;
+    font-family: "OpenSans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 1rem;
+    color: initial;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+}
+
+h2 {
+    font-size: 2.4em;
+}
+
+.color-secondary {
+    color: #9629e6;
+}
+
+a.color-secondary:hover {
+    color: #9629e6d1;
+}
+
+.bg-gradient-purple {
+    background-image: linear-gradient(to right, rgba(32, 40, 119, 1), rgba(55, 46, 149, 1), rgba(83, 49, 177, 1), rgba(114, 48, 205, 1), rgba(150, 41, 230, 1)) !important;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.bg-transparent li a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.bg-transparent li a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.bg-transparent li a:focus {
+    color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 992px) {
+    .bg-midnightblue-lg {
+        background-color: #202877 !important;
+    }
+}
+
+.navbar-toggler {
+    color: #fff;
+    font-size: 17px;
+    opacity: 0.8;
+}
+
+.badge {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.btn-ouline {    
+    border-radius: 30px;
+    padding: 12px 30px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+
+.btn-ouline ~ .btn-ouline {
+    margin-left: 16px;
+}
+
+.fs-3-5 {
+    font-size: 1.5rem;
+}
+
+.btn--white {    
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn--white:hover { 
+    color: #9629e6;   
+    background-color: #fff;
+}
+
+.btn--purple {    
+    border: 1px solid #6730e3;
+    color: #6730e3;
+    background-color: #fff;
+}
+
+.btn--purple:hover { 
+    color: #fff;   
+    background-color: #6730e3;
+}
